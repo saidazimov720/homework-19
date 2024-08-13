@@ -500,3 +500,6 @@ const student497 = { html: 41, css: 47, js: 48 };
 const student498 = { html: 36, css: 50, js: 47 };
 const student499 = { html: 45, css: 48, js: 50 };
 const student500 = { html: 37, css: 44, js: 46 };
+
+console.log("mark for student1:", student1.calculateSum.apply(student1));
+console.log("mark for student2:", student1.calculateSum.apply(student2));
