@@ -503,3 +503,4 @@ const student500 = { html: 37, css: 44, js: 46 };
 
 console.log("mark for student1:", student1.calculateSum.apply(student1));
 console.log("mark for student2:", student1.calculateSum.apply(student2));
+console.log("mark for student3:", student1.calculateSum.apply(student3));
