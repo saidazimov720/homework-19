@@ -1,4 +1,6 @@
-const student1 = { html: 36, css: 38, js: 45 };
+const student1 = { html: 36, css: 38, js: 45 , calculateSum: function (){
+    return this.html + this.css + this.js;
+}};
 const student2 = { html: 40, css: 42, js: 50 };
 const student3 = { html: 34, css: 35, js: 48 };
 const student4 = { html: 39, css: 41, js: 47 };
