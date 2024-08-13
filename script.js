@@ -519,4 +519,5 @@ console.log("mark for student15:", student1.calculateSum.call(student15));
 console.log("mark for student16:", student1.calculateSum.call(student16));
 console.log("mark for student17:", student1.calculateSum.call(student17));
 console.log("mark for student17:", student1.calculateSum.call(student18));
-console.log("mark for student18:", student1.calculateSum.call(student19));
+console.log("mark for student19:", student1.calculateSum.call(student19));
+console.log("mark for student20:", student1.calculateSum.call(student20));
