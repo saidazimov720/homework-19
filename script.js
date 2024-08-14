@@ -1001,3 +1001,19 @@ console.log("mark for student497:", student1.calculateSum.apply(student497));
 console.log("mark for student498:", student1.calculateSum.apply(student498));
 console.log("mark for student499:", student1.calculateSum.apply(student499));
 console.log("mark for student500:", student1.calculateSum.apply(student500));
+
+const students = [];
+for (let i = 0; i < 500; i++) {
+    const list = {
+        html: 52 + i,
+        css: 65 + i,
+        js: 78 + i
+    };
+    students.push(list);
+}
+const sum = students.map((list)=> list.js + list.css + list.html);
+let sums = [];
+for (let i = 0; i < students.length; i++) {
+    sums = sum[i];
+} 
+console.log(sums);
